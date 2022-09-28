@@ -15,6 +15,6 @@ export default async function handler(req, res) {
     console.log(err)
     res.status(500).json({ success: false })
   } finally {
-    await database.close()
+    await client.close()
   }
 }
