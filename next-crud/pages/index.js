@@ -1,9 +1,7 @@
+import Buton from "../components/Button"
+
 export default function Home() {
   return (
-    <div>
-      <h2>
-        Hello World
-      </h2>
-    </div>
+      <Buton name="insert" />
   )
 }

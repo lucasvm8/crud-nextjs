@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     
     const findById = await itemCollection.findOne({ _id: ObjectId("63345f60c2301ad7d3e27429") });
 
-    res.status(200).json( {success: true, data: findById})
+    res.status(200).json({ success: true, data: findById })
   } catch (err) {
     console.log(err)
     res.status(500).json({ success: false })
