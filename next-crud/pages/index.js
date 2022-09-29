@@ -1,7 +1,7 @@
-import Buton from "../components/Button"
+import Form from "../components/Form"
 
 export default function Home() {
   return (
-      <Buton name="insert" />
+    <Form name="insert" />
   )
 }
